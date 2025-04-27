@@ -1,0 +1,54 @@
+
+  .home-container {
+    background-color: #3DFA99;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+  }
+  
+  .slogan {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    display: inline-block; 
+    padding: 2rem;
+  }
+
+  .botao {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  .botao button {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .botao button:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  
+  .socials {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
