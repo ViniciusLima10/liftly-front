@@ -1,0 +1,22 @@
+{  "development": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "liftlybanco",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "admin",
+    "password": "1234",
+    "database": "liftlybanco",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "admin",
+    "password": "1234",
+    "database": "liftlybanco",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
