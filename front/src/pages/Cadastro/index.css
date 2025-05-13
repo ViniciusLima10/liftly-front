@@ -1,0 +1,119 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3DFA99;
+  }
+  
+  .slogan {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(60vh - 60px);
+  }
+  
+  form {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .input-field {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 14px 18px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-field input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .input-field input::placeholder {
+    color: white;
+    opacity: 0.8;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 18px;
+  }
+  
+  button[type="submit"],
+  .register-btn {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+  
+  .recall-forget {
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    text-align: left;
+  
+  }
+  
+  .recall-forget a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0.8;
+   
+  }
+  
+  .register-txt {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: bold;
+  }
+  

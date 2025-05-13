@@ -1,0 +1,57 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+  width: 100%;
+  position: relative;
+}
+
+.logo h1 {
+  font-size: 36px; 
+  color: white;  
+  margin: 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+}
+
+.menu a {
+  text-decoration: none; 
+  color: white;
+  font-size: 18px;
+  margin: 0 15px; 
+}
+
+.menu a:hover {
+  color: #5BBA89; 
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu a {
+    margin: 10px 0;
+  }
+}
